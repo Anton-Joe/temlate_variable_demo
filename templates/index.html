@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+ <p>{{ school.1 }}</p>
+{% if age < 18 %}
+    <p>您是未成年</p>
+{% elif age >= 18 %}
+    <p>您是成年人</p>
+{% endif %}
+
+{% if '鲁班一号' in heros %}
+    <p>鲁班一号正在待命</p>
+{% else %}
+    <p>鲁班一号正在睡觉</p>
+{% endif %}
+
+</body>
+</html>
